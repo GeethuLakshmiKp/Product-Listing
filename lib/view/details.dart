@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:productlisting/api.dart';
+import 'package:productlisting/viewModel/api.dart';
 import 'package:provider/provider.dart';
 
 class details extends StatefulWidget {

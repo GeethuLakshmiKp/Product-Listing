@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:productlisting/api.dart';
-import 'package:productlisting/cart.dart';
-import 'package:productlisting/details.dart';
+import 'package:productlisting/viewModel/api.dart';
+
 import 'package:provider/provider.dart';
+
+import 'cart.dart';
+import 'details.dart';
 
 class product extends StatefulWidget {
   const product({super.key});

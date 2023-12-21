@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:productlisting/api.dart';
-import 'package:productlisting/homepage.dart';
+import 'package:productlisting/viewModel/api.dart';
 import 'package:provider/provider.dart';
+
+import 'homepage.dart';
 
 class SplashScreen extends StatelessWidget {
   @override

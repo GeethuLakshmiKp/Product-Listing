@@ -1,10 +1,12 @@
 import 'package:custom_line_indicator_bottom_navbar/custom_line_indicator_bottom_navbar.dart';
 import 'package:flutter/material.dart';
-import 'package:productlisting/account.dart';
-import 'package:productlisting/api.dart';
-import 'package:productlisting/order.dart';
-import 'package:productlisting/product.dart';
+import 'package:productlisting/view/product.dart';
+import 'package:productlisting/viewModel/api.dart';
+
 import 'package:provider/provider.dart';
+
+import 'account.dart';
+import 'order.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -20,7 +22,7 @@ class HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    widgetOptions = [product(), order(), account()];
+    widgetOptions = [product(), const order(), account()];
   }
 
   @override
